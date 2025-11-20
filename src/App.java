@@ -12,6 +12,10 @@ public class App {
 
         ecMarsupial marsupial1 = new ecMarsupial("Pepe");
         ecMarsupial marsupial2 = new ecMarsupial("Lucho", true);
+
+        marsupial1.saludar();
+        marsupial2.saludar();
+
         ecTanqueMutacion tanqueMutacion = new ecTanqueMutacion();
 
         System.out.println("\n----- Mutacion de " + marsupial1.getNombre() + " -----");

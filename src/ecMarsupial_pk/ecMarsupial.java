@@ -51,6 +51,6 @@ public class ecMarsupial implements IComportamiento {
 
     public void saludar(){
         System.out.println(getNombre() + " saludando a todos.\n" +
-        getNombre() + "saludando a Panatlactic");
+        getNombre() + " saludando a Panatlactic");
     }
 }
